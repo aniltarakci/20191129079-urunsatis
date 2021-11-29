@@ -1,0 +1,128 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">ANA SAYFA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="ask">Aşk Kitapları</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="bilim">Bilim Kitapları</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="cocuk">Çocuk Kitapları</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="klasik">Klasik Kitaplar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="polisiye">Polisiye Kitapları</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="psikoloji">Psikoloji Kitapları</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="roman">Roman Kitapları</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="adminpaneli">Admin Paneli</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profilim
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="siparislerim">Siparişlerim</a></li>
+            <li><a class="dropdown-item" href="sepetim">Sepetim</a></li>
+          </ul>
+        
+      </ul>
+        
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#giris">
+        Giriş Yap
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="giris" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">GİRİŞ YAP</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Kullanıcı Adı
+              <input type="text" class="form-control" id="recipient-name">
+              Şifre
+              <input type="password" class="form-control" id="recipient-name">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Giriş Yap</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#uyeol">
+        Üye Ol
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="uyeol" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ÜYE OL</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Kullanıcı Adı
+              <input type="text" class="form-control" id="recipient-name">
+              Ad
+              <input type="text" class="form-control" id="recipient-name">
+              Soyad
+              <input type="text" class="form-control" id="recipient-name">
+              Telefon Numarası
+              <input type="text" class="form-control" id="recipient-name">
+              Şifre
+              <input type="password" class="form-control" id="recipient-name">
+              Şifre Tekrar
+              <input type="password" class="form-control" id="recipient-name">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger">Üye Ol</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Ara</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+<br>
+<footer>
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="text-muted">© 2021 Company, Inc, All rights reserved.</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/aniltarakci" target="_blank"><img src="assets/instagram.png" class="bi" width="24" height="24"></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.twitter.com/aniltarakci00" target="_blank"><img src="assets/twitter.png" class="bi" width="24" height="24"></a></li>
+      </ul>
+    </footer>
+  </div>
+</footer>

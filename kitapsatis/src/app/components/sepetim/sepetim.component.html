@@ -1,0 +1,74 @@
+<div class="alert alert-dark text-center" role="alert">
+    <h3>SEPETİM</h3>
+  </div>
+  
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col md-9">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Ürün Fotoğrafı</th>
+                        <th>Ürün Adı</th>
+                        <th>Fiyat</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="assets/ask/kucukyalanlar.jpg" width="100" alt=""></td>
+                        <td>Küçük Yalanlar</td>
+                        <td>43₺</td>
+                        <td><button class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td><img src="assets/bilim/sapiens.jpg" width="100" alt=""></td>
+                        <td>Sapiens</td>
+                        <td>55₺</td>
+                        <td><button class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td><img src="assets/cocuk/cocuklarnasilbasarir.jpg" width="100" alt=""></td>
+                        <td>Çocuklar Nasıl Başarır?</td>
+                        <td>51₺</td>
+                        <td><button class="btn btn-danger">Sil</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Button trigger modal -->
+        <button type="button" class="btn btn-success d-grid gap-2 col-6 mx-auto" data-bs-toggle="modal" data-bs-target="#siparisver">
+          Sipariş Ver
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="siparisver" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Sipariş Bilgilerinizi Giriniz</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                İl
+                <input type="text" class="form-control" id="recipient-name">
+                İlçe
+                <input type="text" class="form-control" id="recipient-name">
+                Adres
+                <input type="text" class="form-control" id="recipient-name">
+                Kart Sahibinin Adı Soyadı
+                <input type="text" class="form-control" id="recipient-name">
+                Kart Numarası
+                <input type="text" class="form-control" id="recipient-name">
+                Son Kullanma Tarihi
+                <input type="text" class="form-control" id="recipient-name">
+                Güvenlik Kodu
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="modal-footer">
+                <a href="siparislerim"><button type="button" class="btn btn-success">Siparişi Tamamla</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
